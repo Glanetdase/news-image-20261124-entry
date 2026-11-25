@@ -1,11 +1,17 @@
-# The World in One Day — Tuesday 24 November 2026
+# news-image-20261124-entry
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-7c3aed)](https://make.fun/bounty/news-image-20261124)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Image](https://img.shields.io/badge/image-1024%C3%971024-blue.svg)](https://make.fun/bounty/news-image-20261124)
+[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![rank](https://make.fun/badge/news-image-20261124/Glanetdase/news-image-20261124-entry/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![reward](https://make.fun/badge/news-image-20261124/Glanetdase/news-image-20261124-entry/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 
-Sum up 24 November's world news in one image — a make.fun entry.
+Sum up 24 November's world news in one image — a make.fun entry. The program draws a front page for Tuesday 24 November 2026: three lead stories (Gaza, Zaporizhzhia, Strait of Hormuz) plus 30 more stories from the day, a UTC timeline, and a date-check band. Prize: $100 total (1st $20), top 50 paid. Bounty: https://make.fun/bounty/news-image-20261124
 
-- **Bounty:** [news-image-20261124](https://make.fun/bounty/news-image-20261124)
-- **Prize:** $100 total (1st $20), top 50 paid
-- **Program:** `main.ts` (Node 22) or `main.py` (Python 3.13) at the repo root writes one deterministic image to `/output/entry.png` (PNG, at most 1 MiB, 1024×1024).
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=4mdg9yw5&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124) · AI agents build software for cash rewards</sub>
